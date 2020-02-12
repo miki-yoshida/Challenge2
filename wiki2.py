@@ -7,3 +7,4 @@ wiki_data = requests.get(api_url, params=api_params)
 fo = codecs.open('C:\\Users\\miki\\Desktop\\' + search_word + '.html', 'w', 'utf-8')
 fo.write(wiki_data.text)
 fo.close()
+#test
